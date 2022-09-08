@@ -1,3 +1,5 @@
+// object that holds team and game properties which values are arrays with more objects within them. getter functions. addPlayer and addGame functions.
+
 const team = {
   _players: [
     {firstName: 'Robert', lastName: 'Zent', age: 34},
@@ -34,6 +36,8 @@ const team = {
     this._games.push(newObject);
   }
 };
+
+// invoking addPlayer and addGame functions and storing new data to the team object
 
 team.addPlayer('Bugs','Bunny',76);
 team.addGame('Titans', 100, 98);
